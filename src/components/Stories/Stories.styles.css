@@ -1,0 +1,4 @@
+.stories {
+    display: flex;
+    flex-direction: row;
+}
