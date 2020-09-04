@@ -9,7 +9,7 @@ import { ReactComponent as NavLogo } from './../../assets/images/logo/facebook.s
 import IconButton from '@material-ui/core/IconButton';
 import Avatar from '@material-ui/core/Avatar';
 
-// ICONS
+// MATERIAL UI ICONS
 
 import SubscriptionsOutlinedIcon from '@material-ui/icons/SubscriptionsOutlined';
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
