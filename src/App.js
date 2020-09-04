@@ -2,16 +2,18 @@ import React from 'react';
 
 import { Header } from './components/Header/Header.component';
 import { SideNav } from './components/SideNav/SideNav.component';
-import { Stories } from './components/Stories/Stories.component';
+import { Feed } from './components/Feed/Feed.component';
 
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
         <Header />
-        <SideNav />
-        <Stories />
+        <div className = 'app__body'>
+            <SideNav />
+            <Feed />
+        </div>
     </div>
   );
 }

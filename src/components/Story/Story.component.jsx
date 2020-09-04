@@ -8,9 +8,9 @@ import Avatar from '@material-ui/core/Avatar';
 
 const Story = ({ storySrc, profilePicSrc, postedBy }) => {
     return(
-        <div className = 'story' style = {{ backgroundImage: `url(${profilePicSrc})` }}>
+        <div className = 'story' style = {{ backgroundImage: `url(${ storySrc })` }}>
 
-            <Avatar src = { storySrc } className = 'story__avatar' />
+            <Avatar src = { profilePicSrc } className = 'story__avatar' />
             <h4> { postedBy } </h4>
 
         </div>
