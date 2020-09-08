@@ -1,0 +1,17 @@
+.SignUpSection {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 60px;
+}
+
+.SignUpSection .ValidationErrorMessage {
+    font-size: 80%;
+    font-weight: 550;
+    color: #d63031;
+}
+
+.SignUpSection .GenderGroup {
+    display: inline-flex;
+    justify-content: flex-start;
+}

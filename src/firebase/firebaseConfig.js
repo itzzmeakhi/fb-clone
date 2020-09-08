@@ -1,4 +1,4 @@
-const firebaseConfig = {
+export const firebaseConfig = {
     apiKey: "AIzaSyC-PGGWkVDyMlM1r1VG_cYYDiprO53YmQ8",
     authDomain: "fb-clone-6855c.firebaseapp.com",
     databaseURL: "https://fb-clone-6855c.firebaseio.com",

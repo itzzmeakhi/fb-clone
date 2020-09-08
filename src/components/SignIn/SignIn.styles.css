@@ -1,0 +1,12 @@
+.SignInSection {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 60px;
+}
+
+.SignInSection .ValidationErrorMessage {
+    font-size: 80%;
+    font-weight: 550;
+    color: #d63031;
+}

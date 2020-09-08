@@ -1,0 +1,106 @@
+.InputFieldGroup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+
+.InputFieldGroupSize {
+    width: 400px;
+}
+
+.InputFieldGroup .IconContainer {
+    width: 10%;
+    background-color: #00ACEE;
+}
+
+.InputFieldIcon {
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.InputFieldGroup input::-webkit-outer-spin-button,
+.InputFieldGroup input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.InputField {
+    width: 90%;
+    display: block;
+    border: none;
+    padding-left: 10px;
+    border: 1px solid #00ACEE;
+    border-left: none;
+}
+
+.InputField:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid #00ACEE;
+}
+
+.ValidationError {
+    border: 2px solid #ff7675;
+}
+
+.CheckBoxGroup .LabelCheckBox {
+    cursor: pointer;
+}
+
+.CheckBoxGroup .LabelCheckBox span {
+    color: #4b4b4b;
+    font-weight: 585;
+    margin-left: 10px;
+}
+
+.CheckBoxGroup .LabelCheckBox input {
+    cursor: pointer;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border: 2px solid #00ACEE;
+    border-radius: 5px;
+}
+
+.CheckBoxGroup .LabelCheckBox input:checked {
+    background-color: #00ACEE;
+}
+
+.RadioButtonGroup {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.RadioButtonGroup * {
+    margin: 0 10px 0 0;
+}
+
+.RadioButtonGroup label span {
+    color: #4b4b4b;
+    font-weight: 585;
+}
+
+.RadioButtonGroup .RadioButtonIcon {
+    color: #00ACEE;
+    cursor: pointer;
+}
+
+.RadioButtonGroup input {
+    cursor: pointer;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border: 2px solid #00ACEE;
+    border-radius: 10px;
+}
+
+.RadioButtonGroup input:checked {
+    background-color: #00ACEE;
+}
